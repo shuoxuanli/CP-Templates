@@ -1,1 +1,1 @@
-# CP-Templates
+# Competitive Programming Templates
