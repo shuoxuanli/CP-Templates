@@ -12,5 +12,7 @@ template<class T> struct bit {
             res += c[i - 1];
         return res;
     }
-    T qry(int x, int y) { return qry(y) - qry(x - 1); }
+    T qry(int x, int y) { 
+        return qry(y) - qry(x - 1); 
+    }
 };
